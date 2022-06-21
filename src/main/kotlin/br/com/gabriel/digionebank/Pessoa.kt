@@ -6,7 +6,7 @@ class Pessoa {
     var cpf: String = "333.333.333-33"
     private set
 
-    constructor()
+    constructor() // Construtor secundário
 
     fun pessoaInfo() = "$nome + $cpf"
 }
